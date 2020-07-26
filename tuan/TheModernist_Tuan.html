@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>
+        The-Modernist
+    </title>
+
+    <style>
+        body {
+            margin: 0 auto;
+        }
+
+        .one {
+            display: block;
+            background-color: #310000;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            width: 1200px;
+            height: 605px;
+            margin: auto;
+        }
+
+        #b1 {
+            margin-top: 45px;
+            margin-left: 120px;
+            margin-right: 120px;
+        }
+
+        #a1 {
+            display: inline-block;
+            text-align: left;
+            padding-right: 80px;
+
+        }
+
+        #menu {
+            display: inline-block;
+            text-align: center;
+        }
+
+        #menu ul {
+            margin: 0;
+            padding: 0;
+            color: white;
+            list-style-type: none;
+
+        }
+
+        #menu li {
+            font-size: 13px;
+            color: white;
+            display: inline-block;
+            line-height: 15.6px;
+
+        }
+
+        #menu a {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 12px;
+            padding-bottom: 13px;
+            text-decoration: none;
+            color: #fff;
+            display: inline-block
+        }
+
+        #menu a:hover {
+            background-color: #76c38f;
+            border-radius: 10px;
+        }
+
+        #b1>* {
+            vertical-align: middle;
+        }
+
+        #b2 {
+            margin-top: 50px;
+            margin-left: 120px;
+            margin-right: 120px;
+        }
+
+        #b2>* {
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .b_2 {
+            color: #76c38f;
+            font-size: 30px;
+            margin: 0 auto;
+            width: 60px;
+        }
+
+        #left:hover,
+        #right:hover {
+            cursor: pointer;
+        }
+
+        #right {
+            float: right;
+        }
+
+        #b2>div>p>a {
+            margin-left: 60px;
+            color: white;
+            font-size: 13px;
+            border-radius: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 12px;
+            padding-bottom: 10px;
+        }
+
+        #b2>div>p>a:hover {
+            background-color: #76c38f;
+            cursor: pointer;
+        }
+
+        #b21 {
+            width: 380px;
+        }
+
+        #b22>img {
+            border-radius: 50%;
+            border: 25px solid #6b6b6b;
+            width: 380px;
+            height: 380px;
+            background-color: #333333;
+        }
+
+        .two {
+            display: block;
+            background-color: #660000;
+            margin: auto;
+            width: 1200px;
+            height: 975px;
+        }
+
+
+        #c1 {
+            height: 428px;
+            width: 960px;
+            border-bottom: 3px solid #303030;
+            margin-left: 120px;
+            margin-right: 120px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        #c1 div {
+            background-color: #ffffff;
+            width: 225px;
+            height: 330px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px auto;
+        }
+
+        #c1 div:hover {
+            background-color: #76c38f;
+            cursor: pointer;
+        }
+        .img_c1{
+            height: 120px;
+            width: 120px;
+            margin-top: 21px;
+            margin-left: 52px;
+            margin-right: 52px;
+            background-color: #000000;
+        }
+
+        #c1>h1 {
+            font-size: 32px;
+            line-height: 32px;
+            font-family: Georgia;
+            color: #333333;
+           
+        }
+
+        #c1 div:hover h1 {
+            color: #ffffff;
+        }
+
+        #c1 .c_1 {
+            width: 165px;
+            height: 45px;
+            margin-left: 32px;
+            margin-right: 32px;
+            font-size: 12px;
+            line-height: 16.8px;
+            color: #979797;
+            vertical-align: middle;
+        }
+
+        #c1 div:hover .c_1 {
+            color: #ffffff;
+        }
+
+        #c2 {
+            border-radius: 10px;
+            background-color: #303030;
+            color: #ffffff;
+            font-size: 32px;
+            line-height: 38.4px;
+            text-align: center;
+            width: fit-content;
+            padding: 5px 15px;
+            margin: 0 auto;
+            margin-top: -26px;
+        }
+
+        #c2>p {
+            margin: 0 auto;
+        }
+
+        #c3 {
+            width: 960px;
+            margin: 0 auto;
+            margin-top: 30px;
+            height: 430px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+        }
+
+        #c3>div>img {
+            width: 290px;
+            height: 190px;
+        }
+
+        .c_3 {
+            width: 290px;
+            height: 190px;
+            border: 5px solid #ffffff;
+            display: inline-block;
+            background-color: #353535;
+            position: relative;
+        }
+        .c_3 div{
+            background-color: #000000;
+            position: absolute;
+            bottom: 0;
+        }
+        .c_3 p {
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+            line-height: 16.8px;
+            width: 290px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: 0 auto;
+        }
+
+        .c_3:hover {
+            cursor: pointer;
+        }
+
+        .c_3:hover p {
+            visibility: hidden;
+        }
+
+
+        .three {
+            display: block;
+            background-color: #303030;
+            margin: auto;
+            width: 1200px;
+            height: 390px;
+        }
+
+        #d {
+            width: 80%;
+            margin-left: 120px;
+            margin-right: 120px;
+            padding: auto;
+            display: flex;
+        }
+
+        #d1 {
+            width: 245px;
+            padding-right: 20px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #d11 {
+            width: 225px;
+            display: inline-block;
+        }
+
+        h3 {
+            font-size: 16px;
+            line-height: 19.2px;
+            color: white;
+            font-family: Georgia;
+        }
+
+        #d2 {
+            width: 245px;
+            display: inline-block;
+            padding-right: 20px;
+            vertical-align: top;
+        }
+
+        #d22 {
+            width: 225px;
+            display: inline-block;
+        }
+
+        #d22_1 {
+            color: #979797;
+            font-size: 13px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #404040;
+        }
+
+        #d22_2 {
+            text-decoration: none;
+            color: #76c38f;
+        }
+
+        #d3 {
+            width: 245px;
+            padding-right: 20px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #d33 {
+            width: 225px;
+            display: inline-block;
+        }
+
+        #d33>a {
+            color: #76c38e;
+            font-family: Georgia;
+            font-size: 13px;
+            line-height: 20.8px;
+        }
+
+        #d4 {
+            width: 225px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .d44_1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #989898;
+            background-color: #222222;
+            border-radius: 10px;
+            border: none;
+            width: 225px;
+            padding: 10px;
+            margin-bottom: 10px;
+            outline: none;
+        }
+
+        .d44_1:focus {
+            border: none;
+        }
+
+        ::placeholder {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 13px;
+            line-height: 15.6px;
+            color: #989898;
+        }
+
+        #d44_2 {
+            padding-bottom: 65px;
+        }
+
+        .four {
+            border-top: 1px solid #3a3a3a;
+            background-color: #2b2b2b;
+            height: 60px;
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .four div {
+            max-width: 960px;
+            margin: 10px auto;
+            font-size: 13px;
+            color: #979797;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body contenteditable="false">
+
+    <div class="one">
+        <div style="margin:auto;height: 5px; background-color:#76c38f"></div>
+        <div id="b1">
+            <div id="a1" style="vertical-align: middle;">
+                <div style="color: white;font-size: 180%;padding: 0%;">
+                    The Modernist
+                </div>
+                <div style="color: gray;font-size: 70%;">
+                    Free PDS Website Template
+                </div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">STYLE DEMO</a></li>
+                    <li><a href="#">FULL WIDTH</a></li>
+                    <li><a href="#">DROPDOWN</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">GALLERY</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div id="b2">
+            <div class="b_2"><i id="left" class='fas fa-chevron-left'></i></div>
+
+            <div id="b21">
+                <p style="color:white;width: 300px;margin-top: 0;
+                margin-bottom: 15px;font-size: 46px;line-height: 46px;">Cursus penati saccum null.</p>
+                <p style="color:#979797;width: 270px;margin-top: 15px;margin-bottom: 30px;
+                font-size: 12px;line-height: 19.2px;">Nullamlacus dui ipsum conseque loberttis non euisque
+                    morbi penas dapibulum orna. Urnaultrices quis curabitur
+                    phasellentesque congue magnis vestibulum quismodo nulla
+                    et feugiat adipiscinia pellenutm leo.</p>
+                <p><a>Read More Here &#187</a></p>
+            </div>
+            <div id="b22">
+                <img src="https://dummyimage.com/380x380/333333/ffffff&text=380x380px" alt="" id="r_img">
+            </div>
+            <div class="b_2"><i id="right" class='fas fa-chevron-right'></i></div>
+        </div>
+    </div>
+    <div class="two">
+        <div id="c1">
+            <div>
+                <img src="https://dummyimage.com/120x120/000/fff&text=120x120px" alt="" id="img_1" class="img_c1">
+                <h1>SERVICE TITLE</h1>
+                <p class="c_1">Vestassapede et donec ut est
+                    libe ros sus et eget sed eget
+                    quisp ueta habitur augue</p>
+            </div>
+            <div>
+                <img src="https://dummyimage.com/120x120/000/fff&text=120x120px" alt="" id="img_2" class="img_c1">
+                <h1>SERVICE TITLE</h1>
+                <p class="c_1">Vestassapede et donec ut est
+                    libe ros sus et eget sed eget
+                    quisp ueta habitur augue</p>
+            </div>
+            <div>
+                <img src="https://dummyimage.com/120x120/000/fff&text=120x120px" alt="" id="img_3" class="img_c1">
+                <h1>SERVICE TITLE</h1>
+                <p class="c_1">Vestassapede et donec ut est
+                    libe ros sus et eget sed eget
+                    quisp ueta habitur augue</p>
+            </div>
+            <div>
+                <img src="https://dummyimage.com/120x120/000/fff&text=120x120px" alt="" id="img_4" class="img_c1">
+                <h1>SERVICE TITLE</h1>
+                <p class="c_1">Vestassapede et donec ut est
+                    libe ros sus et eget sed eget
+                    quisp ueta habitur augue</p>
+            </div>
+        </div>
+        <div id="c2">
+            <p>LATEST WORK</p>
+        </div>
+        <div id="c3">
+            <div class="c_3">
+                <img src="https://dummyimage.com/290x190/353535/ffffff&text=290x190px" alt="">
+                <div><p>LOREM IPSUM DOLOR</p></div>
+            </div>
+            <div class="c_3">
+                <img src="https://dummyimage.com/290x190/353535/ffffff&text=290x190px" alt="">
+                <div><p>LOREM IPSUM DOLOR</p></div>
+            </div>
+            <div class="c_3">
+                <img src="https://dummyimage.com/290x190/353535/ffffff&text=290x190px" alt="">
+                <div><p>LOREM IPSUM DOLOR</p></div>          
+            </div>
+            <div class="c_3">
+                <img src="https://dummyimage.com/290x190/353535/ffffff&text=290x190px" alt="">
+                <div><p>LOREM IPSUM DOLOR</p></div>
+            </div>
+            <div class="c_3">
+                <img src="https://dummyimage.com/290x190/353535/ffffff&text=290x190px" alt="">
+                <div><p>LOREM IPSUM DOLOR</p></div>
+            </div>
+            <div class="c_3">
+                <img src="https://dummyimage.com/290x190/353535/ffffff&text=290x190px" alt="">
+                <div><p>LOREM IPSUM DOLOR</p></div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="three">
+        <div id="d">
+            <div id="d1">
+                <div id="d11">
+                    <h3>From The Blog</h3>
+                    <h4 style="color: #76c38f;">Post Title</h4>
+                    <h5 style="display: inline;color: #76c38f;">Admin</h5>
+                    <p style="display: inline;">,domainame.com</p>
+                    <h5>Friday, 6th April 2000</h5>
+                    <p>
+                        Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed.
+                        Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.
+                        Namjusto cras urna urnaretra lor urna neque sed quis orci nulla.
+                    </p>
+                    <a href="" style="text-decoration: none;color: #76c38f;">Read More &#187</a>
+                </div>
+            </div>
+            <div id="d2">
+                <div id="d22">
+                    <h3>Quick Links</h3>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li>
+                            <p id="d22_1"><a href id="d22_2">&#187 Lorem ipsum dolor sit</a></p>
+                        </li>
+
+                        <li>
+                            <p id="d22_1"><a href id="d22_2">&#187 Amet consectetur</a></p>
+                        </li>
+
+                        <li>
+                            <p id="d22_1"><a href id="d22_2">&#187 Praesent vel sem id</a></p>
+                        </li>
+
+                        <li>
+                            <p id="d22_1"><a href id="d22_2">&#187 Curabitur hendrerit est</a></p>
+                        </li>
+
+                        <li>
+                            <p id="d22_1"><a href id="d22_2">&#187 Aliquam eget erat nec sapien</a></p>
+                        </li>
+
+                        <li>
+                            <p id="d22_1"><a href id="d22_2">&#187 Cras id augue nunc</a></p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div id="d3">
+                <div id="d33">
+                    <h3>Latest Tweets</h3>
+
+                    <a href="" style="display:inline;color: #76c38e;text-decoration: none;">@namehere,</a>
+                    <p style="padding:0; margin:0;display: inline;">
+                        Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
+                        Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago
+                    </p>
+                    <br>
+                    <a href="" style="display: inline;color:#76c38e;text-decoration: none;">@namehere,</a>
+                    <p style="padding:o;margin:0;display: inline;">
+                        Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
+                        Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago
+                    </p>
+                </div>
+            </div>
+            <div id="d4">
+                <div id="d44">
+                    <h3>Contact Us</h3>
+                    <input class="d44_1" type="text" placeholder="Full Name">
+                    <input class="d44_1" type="text" placeholder="Email Address">
+                    <input class="d44_1" type="text" placeholder="Subject">
+                    <input id="d44_2" class="d44_1" type="text"  placeholder="Message">
+                    <button
+                        style="border: none; cursor: pointer; border-radius:10px;background-color: #76c38f;color: #000000;font-size: 12px;font-family: Georgia, 'Times New Roman', Times, serif;padding: 10px;outline: none;"
+                        hover="cursor: pointer;" active="transform: translateY(1px);">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="four">
+        <div>
+            <p><b>Copyright &copy; 2013 Domain Name - All Rights Reserved</b></p>
+            <p><b>Template by OS Templates</b></p>
+        </div>
+    </div>
+</body>
+
+</html>
