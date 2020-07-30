@@ -1,0 +1,102 @@
+body{
+    background-color: thistle;
+}
+#container{
+    width: 900px;
+    margin: 0 auto;
+    height: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+.player1{
+    background-color: rgb(172, 171, 171);
+    width: 50%;
+    display: block;
+    float: left;
+    height: 500px;
+}
+.player2{
+    background-color: white;
+    width: 50%;
+    display: block;
+    float: left;
+    height: 500px;
+}
+.player-name{
+    width: 146px;
+    font-size: xx-large;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-transform: uppercase;
+    position: relative;
+}
+.player-score{
+    width: 80px;
+    margin: 0 auto;
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+.current-box{
+    border:1px solid tomato;
+    margin: 0 auto;
+    background-color: tomato;
+    width: 100px;
+    height: 80px;
+    margin-top: 100px;
+}
+.current-label{
+    text-align: center;
+    font-size: medium;
+    margin-top: 10px;
+}
+.current-score{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10px;
+}
+button{
+    border-style: none ;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: x-large;
+    background: none;
+    text-align: center;
+    position: absolute;
+    outline: none;
+    left:50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.new-game{
+    top:20px;
+}
+.roll{
+    top:270px;
+}
+.hold{
+    top:330px;
+}
+#dice{
+    position: absolute;
+    left: 50%;
+    top:160px;
+    
+    transform: translateX(-50%);
+    height: 100px;
+    
+}
+.active .player-name::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: #EB4D4D;
+    top:-10px;
+    right: -15px;
+}
+

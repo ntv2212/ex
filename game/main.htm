@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            RollToDie
+        </title>
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="player1" class="active">
+                <div class="player-name" id="name1">PLAYER 1</div>
+                <div class="player-score" id="score1">50</div>
+                <div class="current-box">
+                    <div class="current-label">CURRENT</div>
+                    <div class="current-score" id="current1">11</div>
+                </div>
+            </div>
+            <div class="player2">
+                <div class="player-name" id="name2">PLAYER 2</div>
+                <div class="player-score" id="score2">50</div>
+                <div class="current-box">
+                    <div class="current-label">CURRENT</div>
+                    <div class="current-score" id="current2">11</div>
+                </div>
+            </div>
+            <button class="new-game">
+                <i class="ion-ios-plus-outline"></i> New Game
+            </button>
+            <button class="roll"> 
+                <i class="ion-ios-loop"></i> Roll Dice
+            </button>
+            <button class="hold">
+                <i class="ion-ios-download-outline"></i> Hold
+            </button>
+            <img src="images/d-1.png" alt="dice" id="dice">
+        </div>
+        <script src="work.js"></script>
+    </body>
+</html>
