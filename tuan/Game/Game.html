@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        DICE ROLL GAME
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="player-1" class="active">
+            <div class="player-name" id="name1">Player 1</div>
+            <div class="player-score" id="score1">0</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current1">0</div>
+            </div>
+        </div>
+        <div class="player-2">
+            <div class="player-name" id="name2">Player 2</div>
+            <div class="player-score" id="score2">0</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current2">0</div>
+            </div>
+        </div>
+        <button class="bt-new">
+            <span class="iconify" data-icon="ion-ios-plus-outline" data-inline="false" style="color: coral;"></span>
+            NEW GAME
+        </button>
+        <button class="bt-roll">
+            <span class="iconify" data-icon="ion-ios-loop" data-inline="false" style="color: coral;"></span>
+            ROLL DICE
+        </button>
+        <button class="bt-hold">
+            <span class="iconify" data-icon="ion-ios-download-outline" data-inline="false" style="color: coral;"></span>
+            HOLD
+        </button>
+        <img src="image/dice-1.png" alt="dice" id="dice">
+    </div>
+    <script src="jsGame.js"></script>
+</body>
+
+</html>
