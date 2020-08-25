@@ -1,0 +1,14 @@
+C:\Users\abc\source\repos\QP\QP\obj\Debug\netstandard2.0\QP.csprojAssemblyReference.cache
+C:\Users\abc\source\repos\QP\QP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\abc\source\repos\QP\QP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\abc\source\repos\QP\QP\obj\Debug\netstandard2.0\QP.AssemblyInfoInputs.cache
+C:\Users\abc\source\repos\QP\QP\obj\Debug\netstandard2.0\QP.AssemblyInfo.cs
+C:\Users\abc\source\repos\QP\QP\obj\Debug\netstandard2.0\QP.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\repos\QP\QP\bin\Debug\netstandard2.0\QP.deps.json
+C:\Users\abc\source\repos\QP\QP\bin\Debug\netstandard2.0\QP.dll
+C:\Users\abc\source\repos\QP\QP\bin\Debug\netstandard2.0\ref\QP.dll
+C:\Users\abc\source\repos\QP\QP\bin\Debug\netstandard2.0\QP.pdb
+C:\Users\abc\source\repos\QP\QP\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\abc\source\repos\QP\QP\obj\Debug\netstandard2.0\QP.dll
+C:\Users\abc\source\repos\QP\QP\obj\Debug\netstandard2.0\ref\QP.dll
+C:\Users\abc\source\repos\QP\QP\obj\Debug\netstandard2.0\QP.pdb
